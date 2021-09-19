@@ -1,0 +1,89 @@
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: Tahoma;
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+
+  body {
+      height: 20vh;
+      background: url(./assets/bg.jpg) repeat center;
+      /* importante */
+      background-size: cover;
+      /* importante - aproveitamento da tela*/
+      justify-content: center;
+  }
+
+  .menu {
+      padding: 12px 5px;
+      background-color: black;
+      align-items: center;
+  }
+
+  .tudo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-left: 10px;
+      margin-top: 10px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: rgba(204, 204, 204, 0.719);
+      margin-left: 10;
+  }
+
+  #titulo {
+      display: flex;
+      justify-content: center;
+      padding: 2px;
+      margin: 0px 0px 0px 2px;
+      background-color: rgb(0, 0, 0);
+      color: aliceblue;
+      font-size: 60;
+  }
+
+  ul {
+      display: flex;
+      justify-content: center;
+  }
+
+  li {
+      list-style-type: none;
+      background-color: black;
+      color: aliceblue;
+      align-self: center;
+      padding: 20px;
+  }
+
+  .banner img {
+      width: 100%;
+  }
+
+  .item img:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+
+  .item img {
+      max-width: 300px;
+      max-height: 300px;
+      padding: 10px;
+  }
+
+  a:link, a:visited, a:active {
+      color: white;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  a:hover {
+      padding: 20px 30px;
+      color: #000;
+      background-color: rgba(255, 192, 203, 0.699);
+      border: 1px solid #fff;
+  }
